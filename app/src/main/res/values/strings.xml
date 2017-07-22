@@ -1,0 +1,37 @@
+<resources>
+    <!-- Strings used for PopularMovies App -->
+    <string name="app_name">PopularMovies</string>
+
+    <!-- All Strings used for xml files below -->
+    <!-- res/menu/sort-->
+    <string name="menu_sort_by">Sort By</string>
+
+    <!-- res/layout/fragment_main -->
+    <string name="error_message">There was an error loading movies, please try again later!</string>
+    <string name="no_favorites">You currently do not have any favorite movies.
+        Press the star on any movie to add it to your list!</string>
+    
+    <!-- All Strings used for java files below -->
+    <!-- MovieAdapter.java, FavoriteMovieAdapter.java and MovieDetailActivity.java-->
+    <string name="title">title</string>
+    <string name="userRating">userRating</string>
+    <string name="releaseDate">releaseDate</string>
+    <string name="plotSynopsis">plotSynopsis</string>
+    <string name="id">id</string>
+    <string name="posterPath">posterPath</string>
+    <string name="trailerPath">trailerPath</string>
+    <string name="reviewText">reviewText</string>
+    <string name="reviewAuthor">reviewAuthor</string>
+
+    <!-- MainActivityFragment.java -->
+    <string name="sort_by_most_popular">Sorting by Most Popular</string>
+    <string name="sort_by_highest_rated">Sorting by Highest Rated</string>
+    <string name="sort_by_favorites">Sorting by Favorites</string>
+
+    <!-- MovieDetailAdapter.java -->
+    <string name="review_written_by">Review written by: </string>
+    <string name="added_to_favorites"> added to favorites.</string>
+    <string name="removed_from_favorites"> removed from favorites.</string>
+    <string name="rating">Rating: </string>
+    <string name="rating_ten">/10</string>
+</resources>

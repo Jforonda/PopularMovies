@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_display_movie_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/separator_title"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dadada"
+
+        android:layout_below="@id/tv_display_movie_title"/>
+    <ImageView
+        android:id="@+id/iv_display_movie_poster"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+
+        android:layout_below="@+id/separator_title"/>
+    <TextView
+        android:id="@+id/tv_display_movie_release_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+
+        android:layout_toRightOf="@+id/iv_display_movie_poster"
+        android:layout_toEndOf="@+id/iv_display_movie_poster"
+        android:layout_below="@+id/separator_title"/>
+
+    <TextView
+        android:id="@+id/tv_display_movie_user_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+
+        android:layout_toRightOf="@+id/iv_display_movie_poster"
+        android:layout_toEndOf="@+id/iv_display_movie_poster"
+        android:layout_below="@+id/tv_display_movie_release_date"/>
+
+    <TextView
+        android:id="@+id/separator_plot"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dadada"
+
+        android:layout_below="@id/iv_display_movie_poster"/>
+
+    <TextView
+        android:id="@+id/tv_display_movie_plot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+
+        android:layout_below="@+id/separator_plot"/>
+
+    <ImageView
+        android:id="@+id/iv_display_favorite_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_favorite_uncheck"
+
+        android:layout_toRightOf="@id/tv_display_movie_release_date"
+        android:layout_below="@id/tv_display_movie_title"/>
+</RelativeLayout>
